@@ -1,121 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <!--Här har jag stylat lite till med CSS kod, dem ligger i head!-->
-<head>
-  <title>kiko</title>
-  <style>
-    /* style element som tillhör youtube knappen finns här*/
-    .youtube{
-      background-color: rgb(200, 0, 0);
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      font-size-adjust: 0.9;
-      border-radius: 2px;
-      cursor: pointer;
-      box-shadow: 5px 5px 10px rgb(0,0,0.15);
-    }
-    .youtube:hover{
-      color: rgb(205, 106, 106);
-      background-color:white;
-    }
-    /*här finns det style till github knappen*/
-    .git{
-      color:white;
-      background-color:black;
-      border: none;
-      border-radius: 10px;
-      padding: 5px 10px;
-      font-size-adjust: 0.7;
-      cursor: pointer;
-      .gitIcon{
-        font-size: 1.3em
+  <head>
+    <title>kiko</title>
+    <style>
+      .helaSkärmen{
+        display: flex;
       }
-    }
-    .git:hover{
-        background-color:white;
-        color:rgb(85, 78, 78);
-      }
-      /*här finns styler till discord knappen*/
-      .discord{
-        color:white;
-        background-color: blue;
-        padding: 5px 10px;
-        border: none;
-        font-size: 1.3em;
-        border-radius: 10px;
-        cursor: pointer;
-        /*Inte nöjd med discordIcon, ska fixas!
-        .discordIcon{
-          font-size: 1em;
-          background-color: rgb(231, 223, 223);
-          padding: 7px 5px;
-        }
-          */
-      }
-      .discord:hover{
-        color:rgb(75, 81, 150);
-        background-color:white;
-      }
-      /*här finns styler till linkedin knappen*/
-      .linkedin{
-        color:white;
-        background-color: rgb(10, 102, 194);
-        border: none;
-        font-size: 22px;
-        padding: 5px 10px;
-        border-radius: 10px;
-      }
-      .linkedin:hover{
-        color:rgb(72, 64, 135);
-        background-color:white;
-      }
-      /*här finns CSS kodar till p1*/
-      .p1{
-        line-height: 45px;
-      }
-  </style>
-</head>
 
-<body>
-<!--Här finns det alla HTML kodar både text och buttons-->
-  <h1>Varmt välkommen!</h1>
-  <p1 class ="p1">Här testar jag koda vad som helst och delar upp de(;</p1>
-  <p2>/just nu försöker jag bygga några knap som länk till min profil.</p2>
-  <a href="https://www.youtube.com/@Kiko-fancy">
-  <button class = "youtube">youtube</button>
-  </a>
-  <!--HTML kodar till github knappen här-->
-  <a href="https://github.com/kikoDevv">
-  <button class = "git">
-    <span class ="gitIcon">
-      <ion-icon name="logo-github"></ion-icon>
-    </span>
-    <span class ="gitText">
-      GitHub
-    </span>
-  </button>
-  </a>
-<!--Här finns det HTML kodar till discord knappen-->
-  <button class = "discord">
-    <span class="discordIcon">
-      <ion-icon name="logo-discord"></ion-icon>
-    </span>
-    <span class="discordText">
-      Discord
-    </span>
-  </button>
-  <!--Här finns HTML kodar till Linkedin knappen-->
-  <button class = "linkedin">
-    <span class="linkedinIcon">
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </span>
-    <span class="linkedinText">
-      Min Linkedin
-    </span>
-  </button>
-  <!--Här finns det resources till button icon eftersom jag har inte laddat ner det till min mac.-->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    </style>
+  </head>
+  <body>
+    <dev class="helaSkärmen">
+      <div class="TextKontainer">
+        <p class="textNamn">
+          Hej, Nasrolla heter jag!
+        </p>
+        <h1 class="textSudent">
+          Student på Lernia <br> some system utvecklare
+        </h1>
+        <p>
+          Jag är 27 år och studerar som system utvecklare på lernia med på tänkan att blir fullstack dev.
+        </p>
+      </div>
+    </dev>
+  </body>
 </html>
